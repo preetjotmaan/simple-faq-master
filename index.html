@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Simple FAQ | devChallenges.io</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+        <body>
+          <header>
+              <h1 class="heading">Frequently Asked Questions</h1>
+              <p class="heading-paragraph">Browse through the most frequently asked questions</p>
+          </header>
+
+          <section>
+              <div class="tracking container">
+                <h2 class="tracking-heading">How can I track my order?</h2>
+                <p class="tracking-p">You can track your order using the following steps:</p>
+
+                <ol>
+                    <li>Go to the Order <a href="#">Tracking page.</a></li>
+                    <li> Enter your order number and email address.</li>
+                    <li>Click on the Track Order button to view the current status of your shipment.</li>
+                </ol>
+                <p class="help-center">If you encounter any issues, please visit our <a href="#">Help Center.</a></p>
+              </div>
+
+               <hr  />
+
+              <div class="return container">
+                  <h2>What is your return policy?</h2>
+                  <p class="tracking-p">We offer a 30-day return policy on most items. Here are some key points:</p>
+
+                  <ul>
+                      <li><strong>must be in original condition:</strong> Unworn, unused, and unwashed.</li>
+                      <li><strong>Include original packaging and tags:</strong> All items should be returned with their original packaging and tags.</li>
+                      <li><strong>Proof of purchase:</strong>  A receipt or proof of purchase is required.</li>
+                  </ul>
+
+                  <p class="help-center policy">For more detailed information, read our full <a href="#">Return Policy.</a></p>
+              </div>
+
+              
+          </section>
+        
+        </body>
+
+        <style>
+          *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    }
+
+section {
+  width: 100%; 
+  background-color: rgba(210, 213, 218, 0.2);
+  min-height: 110vh; 
+  margin: 0;
+}
+
+ .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+/* HEADING */
+
+header {
+  margin-top: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.heading-paragraph {
+  margin-top: 1rem;
+}
+
+/* SECTION TRACKING-CONTAINER */
+
+.help-center {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  padding: 2rem  2rem;
+  margin: 0 auto;
+}
+
+.tracking {
+   margin-top: 4rem;
+}
+
+.tracking ol, ul {
+  margin-top: 0.5rem;
+  padding: 0 2rem;
+}
+
+.tracking li {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.tracking-p {
+  margin-top: 0.8rem;
+}
+
+/* SECTION TRACKING-CONTAINER */
+
+ul li {
+  line-height: 2;
+}
+
+.return {
+  margin-bottom: 1rem;
+}
+
+.policy {
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  section {
+    min-width: 100%;
+    height: 80vh;
+  }
+
+  .container {
+    max-width: 800px;
+  }
+
+  .line {
+  width: 45%;
+  
+}
+}
+
+
+@media (min-width: 1854px) {
+  .line {
+    width: 35%;
+  }
+}
+        </style>
+</html>
